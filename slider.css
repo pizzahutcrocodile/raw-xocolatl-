@@ -21,20 +21,37 @@
 .temp {
   position: absolute;
   color: white;
-  font-size: 100px;
+  font-size: 60px;
   bottom: 15px;
   left: 15px;
   font-family: 'Josefin Slab', serif;
-  font-weight: 100;
+  font-weight: 800;
+
 }
 #slide-0 {
-  background-image: url(http://farm8.staticflickr.com/7347/8731666710_34d07e709e_z.jpg);
+  background-image: url("images/tea.jpg");
+  background-size: 400px 500px;
+  background-position-x: 60%;
 }
 #slide-1 {
-  background-image: url(http://farm8.staticflickr.com/7384/8730654121_05bca33388_z.jpg);
+  background-image: url("images/almond_butter.jpg");
+  background-size:400px 500px;
+  background-position-x:center;
 }
 #slide-2 {
-  background-image: url(http://farm8.staticflickr.com/7382/8732044638_9337082fc6_z.jpg);
+  background-image: url("images/chocolate.jpg");
+  background-size:400px 500px;
+  background-position-x: 80%;
+}
+#slide-3 {
+  background-image: url("images/truffles.jpg");
+  background-size:400px 500px;
+  background-position-x:25%; 
+
+}
+#slide-4 {
+  background-image: url("images/nibs.jpg");
+  background-size:400px 500px;
 }
 .slide:before {
   content: "";
